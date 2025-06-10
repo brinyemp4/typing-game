@@ -8,6 +8,10 @@ export default function Home() {
       <Head>
         <title>Typing Game</title>
         <link rel="icon" href="/favicon.ico" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+          rel="stylesheet"
+        />
       </Head>
 
       <main>
@@ -18,20 +22,22 @@ export default function Home() {
 
       <style jsx>{`
         .container {
-          height: 100vh;
+          min-height: 100vh;
           display: flex;
           flex-direction: column;
           justify-content: center;
           align-items: center;
+          background: #f7fafc;
         }
 
         main {
-          padding: 5rem 0;
+          padding: 4rem 0;
           flex: 1;
           display: flex;
           flex-direction: column;
           justify-content: center;
           align-items: center;
+          width: 100%;
         }
       `}</style>
 
@@ -40,9 +46,10 @@ export default function Home() {
         body {
           padding: 0;
           margin: 0;
-          font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+          font-family: 'Inter', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
             Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
             sans-serif;
+          background: #f7fafc;
         }
 
         * {
